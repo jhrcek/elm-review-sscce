@@ -10,6 +10,6 @@ import Html exposing (Html)
 
 main : Html msg
 main =
-    case B.Two of
-        B.Two ->
+    case Two of
+        Two ->
             Html.text "Two is used, yet it's underlined in the error report"
