@@ -1,10 +1,10 @@
 module ReviewConfig exposing (config)
 
-import NoUnused.Variables
+import NoUnused.Exports
 import Review.Rule exposing (Rule)
 
 
 config : List Rule
 config =
-    [ NoUnused.Variables.rule
+    [ NoUnused.Exports.rule
     ]

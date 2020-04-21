@@ -1,12 +1,5 @@
-module B exposing
-    ( One(..)
-    , Two(..)
-    )
+module B exposing (b)
 
 
-type One
-    = One
-
-
-type Two
-    = Two
+b =
+    "b"
